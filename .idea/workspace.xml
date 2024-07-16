@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb66dff6-e790-4c55-adca-5b60b1417248" name="更改" comment="第三次提交">
-      <change afterPath="$PROJECT_DIR$/数组/二分查找.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/有序数组的平方.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/移除元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/螺旋矩阵.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/长度最小的子数组.py" afterDir="false" />
+    <list default="true" id="fb66dff6-e790-4c55-adca-5b60b1417248" name="更改" comment="提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数组/长度最小的子数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/数组/长度最小的子数组.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.二分查找.executor": "Run",
-    "Python.有序数组的平方.executor": "Run",
-    "Python.移除元素.executor": "Run",
-    "Python.螺旋矩阵.executor": "Run",
-    "Python.长度最小的子数组.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.二分查找.executor&quot;: &quot;Run&quot;,
+    &quot;Python.有序数组的平方.executor&quot;: &quot;Run&quot;,
+    &quot;Python.移除元素.executor&quot;: &quot;Run&quot;,
+    &quot;Python.螺旋矩阵.executor&quot;: &quot;Run&quot;,
+    &quot;Python.长度最小的子数组.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.螺旋矩阵">
+}</component>
+  <component name="RunManager" selected="Python.长度最小的子数组">
     <configuration name="二分查找" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -81,6 +77,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数组/二分查找.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="长度最小的子数组" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数组" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数组/长度最小的子数组.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,10 +219,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.螺旋矩阵" />
         <item itemvalue="Python.长度最小的子数组" />
-        <item itemvalue="Python.有序数组的平方" />
-        <item itemvalue="Python.移除元素" />
         <item itemvalue="Python.二分查找" />
       </list>
     </recent_temporary>
@@ -289,7 +304,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720757956259</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="提交">
+      <option name="closed" value="true" />
+      <created>1721119714874</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721119714874</updated>
+    </task>
+    <task id="LOCAL-00010" summary="提交">
+      <option name="closed" value="true" />
+      <created>1721119814609</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721119814609</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,6 +350,7 @@
     <MESSAGE value="第一次提交" />
     <MESSAGE value="第二次提交" />
     <MESSAGE value="第三次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第三次提交" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
 </project>

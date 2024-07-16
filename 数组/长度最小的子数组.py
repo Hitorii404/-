@@ -6,26 +6,21 @@ from typing import List
 
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
-        l = []
-        for i in range(len(nums)):
-            flag = False
-            sum = 0
-            cnt = 0
-            for j in range(i, len(nums)):
-                sum += nums[j]
-                cnt += 1
-                if j == len(nums) - 1 and sum < target:
-                    flag = True
-                if sum >= target:
-                    l.append(cnt)
-                    break
-            if flag:
-                break
+        ret = 10 ** 5 + 1
+        sum = 0
+        i = 0
+        for j in range(len(nums)):
+            sum += nums[j]
+            while sum >= target:
+                sub_length = j - i + 1
+                if sub_length < ret:
+                    ret = sub_length
+                sum -= nums[i]
+                i += 1
 
-        if len(l) == 0:
-            return 0
-        else:
-            return min(l)
+        if ret == 10 ** 5 + 1:
+            ret = 0
+        return ret
 
 
 if __name__ == '__main__':
